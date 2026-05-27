@@ -13,7 +13,7 @@ Monitora processos Python em execução e envia notificações por e-mail quando
 ## Instalação
 
 ```bash
-python -m pip install git+https://github.com/seu-usuario/monitor-automatico.git
+python -m pip install git+https://github.com/rafa-rod/monitor-automatico.git
 ```
 
 ## Configuração (primeira vez)
