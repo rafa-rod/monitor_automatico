@@ -27,7 +27,7 @@ from datetime import datetime
 # ─────────────────────────────────────────────
 # CONFIGURAÇÕES
 # ─────────────────────────────────────────────
-KEYRING_SERVICE  = "monitor_python"   # nome do serviço no cofre do SO
+KEYRING_SERVICE  = "monitor python"   # nome do serviço no cofre do SO
 KEYRING_EMAIL    = "email"            # chave para o e-mail
 KEYRING_SENHA    = "senha_app"        # chave para a senha de app Gmail
 VERIFICAR_INTERVALO = 10              # segundos entre cada varredura
