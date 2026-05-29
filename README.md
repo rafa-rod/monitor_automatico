@@ -25,7 +25,7 @@ Gere em: **Conta Google → Segurança → Verificação em duas etapas → Senh
 Depois configure:
 
 ```bash
-python monitor_automatico.py --setup
+python -m monitor_automatico --setup
 ```
 
 As credenciais ficam salvas no cofre do SO (Windows Credential Manager / macOS Keychain / Linux Secret Service). Não são armazenadas em nenhum arquivo.
@@ -34,16 +34,16 @@ As credenciais ficam salvas no cofre do SO (Windows Credential Manager / macOS K
 
 ```bash
 # Inicia o monitoramento contínuo
-python monitor_automatico.py
+python -m monitor_automatico
 
 # Lista processos Python ativos no momento
-python monitor_automatico.py --list
+python -m monitor_automatico --list
 
 # Remove credenciais salvas (para reconfigurar)
-python monitor_automatico.py --reset
+python -m monitor_automatico --reset
 
 # Ajuda
-python monitor_automatico.py --help
+python -m monitor_automatico --help
 ```
 
 ## E-mails enviados
